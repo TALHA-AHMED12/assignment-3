@@ -1,7 +1,7 @@
 /* src/style/style.css */
 
 body {
-  background-image: url('../public/bg3.jpg');
+  background-image: url('../../public/bg3.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

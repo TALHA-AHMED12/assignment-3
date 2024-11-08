@@ -28,26 +28,49 @@ export default function Home() {
         <title>personal-resume</title>
       </header>
 
-      <main>
-      <section id="about" className="section">
-  <Image src="/MR R gamerz.png" alt="Sheikh Talha Ahmed" className="profile-pic" width={2000} height={2000}/>
-  <h1>SHEIKH TALHA AHMED</h1>
-  <h2>Aspiring Web Developer</h2>
-  <p>
-    "<strong>
-      <em>Welcome! to my Resume Website</em>
-    </strong>, I'm a dedicated Computer Science student at S.M. Government Science College. With a strong passion for coding and a keen interest in emerging technologies, I'm actively expanding my knowledge in Web 3.0, the metaverse, and artificial intelligence. Having recently completed a Web 3.0 course, I'm excited to continue exploring these fields and advancing my skills."
-  </p>
-  <p>
-    Check out my projects on <a href="https://github.com/TALHA-AHMED12" target="_blank" rel="noopener noreferrer">GitHub</a>.
-  </p>
-</section>
-
+      <main className="main">
+        <section id="about" className="section">
+          <Image
+            src="/MR-R-gamerz.png"
+            alt="Sheikh Talha Ahmed"
+            className="profile-pic"
+            width={2000}
+            height={2000}
+          />
+          <h1>SHEIKH TALHA AHMED</h1>
+          <h2>Aspiring Web Developer</h2>
+          <p>
+            "
+            <strong>
+              <em>Welcome! to my Resume Website</em>
+            </strong>
+            , I'm a dedicated Computer Science student at S.M. Government
+            Science College. With a strong passion for coding and a keen
+            interest in emerging technologies, I'm actively expanding my
+            knowledge in Web 3.0, the metaverse, and artificial intelligence.
+            Having recently completed a Web 3.0 course, I'm excited to continue
+            exploring these fields and advancing my skills."
+          </p>
+          <p>
+            Check out my projects on{" "}
+            <a
+              href="https://github.com/TALHA-AHMED12"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+            .
+          </p>
+        </section>
 
         <section id="contact" className="section">
           <h3>Contact Information</h3>
-          <p>Email:{" "} < a href="mailto:sheikhtalhaahmed098@gmail.com" target="_blank">
-          sheikhtalhaahmed@gmail.com</a>
+          <p>
+            Email:{" "}
+            <a href="mailto:sheikhtalhaahmed098@gmail.com" target="_blank">
+              sheikhtalhaahmed@gmail.com
+            </a>
           </p>
           <p>Phone: +92 xxxxxxxxxx</p>
 
@@ -86,7 +109,7 @@ export default function Home() {
           </p>
         </section>
       </main>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
